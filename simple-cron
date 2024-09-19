@@ -1,0 +1,2 @@
+# simple-cron
+* * * * * /usr/local/bin/download.sh https://ubuntu.com/download/desktop/thank-you?version=24.04.1&architecture=amd64&lts=true >> /var/log/cron.log 2>&1

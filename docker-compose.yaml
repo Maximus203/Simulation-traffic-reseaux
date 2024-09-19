@@ -1,0 +1,8 @@
+version: '1'
+services:
+  downloader:
+    image: network-traffic-simulator
+    deploy:
+      replicas: 60
+    environment:
+      - URL=https://ubuntu.com/download/desktop/thank-you?version=24.04.1&architecture=amd64&lts=true
