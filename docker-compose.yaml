@@ -1,7 +1,7 @@
 version: '1'
 services:
   downloader:
-    image: network-traffic-simulator
+    image: printfcherif/network-traffic-simulator:latest
     deploy:
       replicas: 60
     environment:
