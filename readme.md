@@ -36,7 +36,7 @@ Ce projet est un simulateur de trafic réseau qui utilise Docker pour lancer plu
 Pour lancer 60 instances de téléchargement, utilisez Docker Compose :
 
 ```bash
-docker-compose up --scale downloader=60
+docker-compose up --scale
 ```
 
 Cela lancera 60 conteneurs qui téléchargeront le fichier spécifié dans le fichier `docker-compose.yaml`.
