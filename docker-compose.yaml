@@ -1,8 +1,8 @@
-version: '1'
+version: '3.8'
 services:
   downloader:
     image: printfcherif/network-traffic-simulator:latest
     deploy:
-      replicas: 60
+      replicas: 50
     environment:
       - URL=https://releases.ubuntu.com/noble/ubuntu-24.04.1-desktop-amd64.iso
